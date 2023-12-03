@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>UDT Club</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="container">
+        <div class="nav-box">
+          <div class="logo-nav">
+            <a href="index.html" class="logo-box">
+              <img src="imgs/logoOG.png" class="nav-logo" alt="" />
+            </a>
+          </div>
+          <div class="pages-nav">
+            <a href="index.html">UDT</a>
+            <a href="calendario.html">Calendarios</a>
+            <a href="equipo.html">Equipos</a>
+            <a href="voluntario.html">Voluntarios</a>
+            <a href="preguntas.html" class="preguntas-padding preguntas-pg"
+              >Preguntas</a
+            >
+          </div>
+        </div>
+      </nav>
+      <section>
+        <div class="container">
+          <div class="preguntas-section">
+            <h2 class="pregun-h2">Preguntas</h2>
+            <div class="w3-bar w3-black">
+              <button
+                class="w3-bar-item w3-button"
+                onclick="openCity('Registro')"
+              >
+                Registro
+              </button>
+              <button
+                class="w3-bar-item w3-button"
+                onclick="openCity('Juegos')"
+              >
+                Juegos Y Practicas
+              </button>
+              <button class="w3-bar-item w3-button" onclick="openCity('Ocupa')">
+                Que se ocupa?
+              </button>
+              <button class="w3-bar-item w3-button" onclick="openCity('Info')">
+                Informacion sobre equipo
+              </button>
+              <button class="w3-bar-item w3-button" onclick="openCity('Otro')">
+                Otro
+              </button>
+            </div>
+            <div id="Registro" class="city">
+              <div class="pregun-accor">
+                <button class="accordion">
+                  ¿Cómo se determinan los grupos de edad?
+                </button>
+                <div class="panel">
+                  <p>Lorem ipsum...</p>
+                </div>
+
+                <button class="accordion">
+                  ¿Cuánto cuesta la inscripción?
+                </button>
+                <div class="panel">
+                  <p>Lorem ipsum...</p>
+                </div>
+
+                <button class="accordion">
+                  ¿Puedo solicitar que mis hijos jueguen en el mismo equipo?
+                </button>
+                <div class="panel">
+                  <p>Lorem ipsum...</p>
+                </div>
+                <button class="accordion">
+                  ¿Puedo solicitar que mi hijo sea colocado con un determinado
+                  jugador o con un determinado entrenador?
+                </button>
+                <div class="panel">
+                  <p>Lorem ipsum...</p>
+                </div>
+                <button class="accordion">¿Qué paga mi inscripción?</button>
+                <div class="panel">
+                  <p>Lorem ipsum...</p>
+                </div>
+                <button class="accordion">
+                  ¿Cuándo tendré noticias del entrenador de mi equipo?
+                </button>
+                <div class="panel">
+                  <p>Lorem ipsum...</p>
+                </div>
+                <button class="accordion">
+                  ¿Puedo solicitar que mi hijo juegue en un grupo de edad
+                  diferente?
+                </button>
+                <div class="panel">
+                  <p>Lorem ipsum...</p>
+                </div>
+              </div>
+            </div>
+
+            <div id="Juegos" class="city" style="display: none">
+              <div class="pregun-accor">
+                <button class="accordion">
+                  ¿Cuándo comienza la temporada de primavera de 2024?
+                </button>
+                <div class="panel">
+                  <p>Lorem ipsum...</p>
+                </div>
+
+                <button class="accordion">¿Qué día son las prácticas?</button>
+                <div class="panel">
+                  <p>Lorem ipsum...</p>
+                </div>
+
+                <button class="accordion">¿Qué día son los juegos?</button>
+                <div class="panel">
+                  <p>Lorem ipsum...</p>
+                </div>
+                <button class="accordion">¿Dónde se juegan los juegos?</button>
+                <div class="panel">
+                  <p>Lorem ipsum...</p>
+                </div>
+                <button class="accordion">
+                  ¿Cuándo tendré noticias de mi entrenador?
+                </button>
+                <div class="panel">
+                  <p>Lorem ipsum...</p>
+                </div>
+              </div>
+            </div>
+
+            <div id="Ocupa" class="city" style="display: none">
+              <div class="pregun-accor">
+                <button class="accordion">
+                  Mi jugador nunca ha jugado antes, ¿qué equipamiento necesito?
+                </button>
+                <div class="panel">
+                  <p>Lorem ipsum...</p>
+                </div>
+
+                <button class="accordion">
+                  ¿Cuándo llegaré de mi entrenador?
+                </button>
+                <div class="panel">
+                  <p>Lorem ipsum...</p>
+                </div>
+
+                <button class="accordion">
+                  ¿Hay costo de entrada para los juegos?
+                </button>
+                <div class="panel">
+                  <p>Lorem ipsum...</p>
+                </div>
+              </div>
+            </div>
+            <div id="Info" class="city" style="display: none">
+              <div class="pregun-accor">
+                <button class="accordion">
+                  ¿Cuándo tendré noticias del entrenador de mi equipo?
+                </button>
+                <div class="panel">
+                  <p>Lorem ipsum...</p>
+                </div>
+
+                <button class="accordion">¿Cómo se forman los equipos?</button>
+                <div class="panel">
+                  <p>Lorem ipsum...</p>
+                </div>
+
+                <button class="accordion">
+                  ¿Puedo solicitar que un niño juegue en el mismo equipo?
+                </button>
+                <div class="panel">
+                  <p>Lorem ipsum...</p>
+                </div>
+                <button class="accordion">
+                  ¿Puedo solicitar que mi hijo sea colocado con un determinado
+                  jugador o con un determinado entrenador?
+                </button>
+                <div class="panel">
+                  <p>Lorem ipsum...</p>
+                </div>
+              </div>
+            </div>
+            <div id="Otro" class="city" style="display: none">
+              <div class="pregun-accor">
+                <button class="accordion">
+                  Mi hijo ha decidido no jugar esta temporada. ¿Puedo obtener un
+                  reembolso?
+                </button>
+                <div class="panel">
+                  <p>Lorem ipsum...</p>
+                </div>
+
+                <button class="accordion">
+                  My child has decide not play this season, can you just hold
+                  the registration fee until next season?
+                </button>
+                <div class="panel">
+                  <p>Lorem ipsum...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <h3>SIGUENOS</h3>
+          <div class="socials">
+            <div>
+              <a href="index.html">
+                <img src="imgs/logomain.png" alt="" />
+              </a>
+            </div>
+            <p class="slogan">#ElFutbolEsVida</p>
+            <a href="https://www.facebook.com/ElFutbolesVidaUDT/?locale=es_LA">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="4em"
+                viewBox="0 0 512 512"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
+                />
+              </svg>
+            </a>
+          </div>
+
+          <p class="rights">
+            &copy;<span id="copyright"></span> Keith Rincon. Todos los derechos
+            reservados
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="index.js"></script>
+</html>
