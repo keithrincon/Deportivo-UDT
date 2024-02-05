@@ -9,7 +9,7 @@ body {
   max-width: 1300px;
 }
 
-.container {
+/* .container {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -69,7 +69,7 @@ p {
 }
 /* End of Nav section */
 
-/* About us section */
+About us section
 
 .header-main {
   background-color: #d4d2d5;
@@ -84,7 +84,7 @@ p {
   background-color: #d4d2d5;
   padding: 20px;
   display: flex;
-  justify-content: center;
+  justify-content: ;
   align-items: center;
   border-radius: 15px;
 }
@@ -103,6 +103,10 @@ p {
   font-weight: 700;
   padding-left: 5px;
   color: #0542ae;
+  display: flex;
+}
+.right-title {
+  justify-content: flex-start;
 }
 /* End of Banner */
 
@@ -148,6 +152,7 @@ p {
   padding: 30px;
 }
 .calendario {
+
   background-color: #d4d2d5;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -1278,4 +1283,4 @@ svg:hover {
 .voluntario-logo img {
   width: 10rem;
 }
-/* End of Voluntario Page */
+End of Voluntario Page */

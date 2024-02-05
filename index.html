@@ -3,18 +3,191 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,400;1,500;1,900&display=swap"
       rel="stylesheet"
     />
     <title>UDT Club</title>
   </head>
 
   <body>
-    <header>
+    <nav class="nav-container">
+      <a class="nav-logo" href="">
+        <img class="nav-img" src="imgs/logoOG.png" alt="" />
+      </a>
+      <div class="nav-links">
+        <a class="nav-link" href="calendario.html">Calendarios</a>
+        <a class="nav-link" href="equipo.html">Equipos</a>
+        <a class="nav-link" href="voluntario.html">Voluntarios</a>
+        <a class="nav-link" href="preguntas.html" class="preguntas-padding"
+          >Preguntas</a
+        >
+      </div>
+    </nav>
+
+    <div class="hero">
+      <div class="banner">
+        <div class="banner-top-left">
+          <h1>Sito Official Del</h1>
+        </div>
+        <div class="banner-center">
+          <img class="banner-logo" src="imgs/logomain.png" alt="" />
+        </div>
+        <div class="banner-top-right">
+          <h1>Deportivo UDT</h1>
+        </div>
+      </div>
+      <div class="img-container">
+        <img class="hero-img" src="imgs/team1.jpg" alt="" />
+      </div>
+      <div class="hero-msg">
+        <h2 class="hero-txt">El Futbol Es Vida!</h2>
+      </div>
+    </div>
+
+    <div class="hero">
+      <div class="cal-banner">
+        <h2 class="banner-main-title">Calendario</h2>
+      </div>
+      <div class="calendario">
+        <div class="inner-box">
+          <p class="teams">vs: XXX</p>
+          <p class="date">dd/mm/yyyy</p>
+          <p class="date">15:00</p>
+          <p class="cancha">CAMPO UNION</p>
+        </div>
+
+        <div class="inner-box">
+          <p class="teams">vs: XXX</p>
+          <p class="date">dd/mm/yyyy</p>
+          <p class="date">15:00</p>
+          <p class="cancha">CAMPO UNION</p>
+        </div>
+
+        <div class="inner-box">
+          <p class="teams">vs: XXX</p>
+          <p class="date">dd/mm/yyyy</p>
+          <p class="date">15:00</p>
+          <p class="cancha">CAMPO UNION</p>
+        </div>
+
+        <div class="inner-box">
+          <p class="teams">vs: XXX</p>
+          <p class="date">dd/mm/yyyy</p>
+          <p class="date">15:00</p>
+          <p class="cancha">CAMPO UNION</p>
+        </div>
+
+        <div class="inner-box">
+          <p class="teams">vs: XXX</p>
+          <p class="date">dd/mm/yyyy</p>
+          <p class="date">15:00</p>
+          <p class="cancha">CAMPO UNION</p>
+        </div>
+
+        <div class="inner-box">
+          <p class="teams">vs: XXX</p>
+          <p class="date">dd/mm/yyyy</p>
+          <p class="date">15:00</p>
+          <p class="cancha">CAMPO UNION</p>
+        </div>
+      </div>
+      <button class="cal-btn" role="button">Visualizar</button>
+      <p class="cal-info">
+        Haga click en el botón "Visualizar" para mostrar el Calendario en
+        Formato PDF
+      </p>
+    </div>
+
+    <div id="info">
+      <div class="info-section">
+        <div class="preguntas-section">
+          <div class="preg-left-side">
+            <h2>Tienen una pregunta o buscan mas informacion?</h2>
+            <a class="preg-link" href="#">Primero visiten nuesta PF pagina!</a>
+          </div>
+          <div class="preg-right-side">
+            <img class="preg-img" src="imgs/plays.jpg" alt="" />
+          </div>
+        </div>
+        <div class="vol-section">
+          <div class="vol-left-side">
+            <img class="vol-img" src="imgs/volunteers.jpg" alt="" />
+          </div>
+          <div class="vol-right-side">
+            <h2>Oportunidades para ser voluntario</h2>
+            <p>¡Ven y únete como voluntario para ayudar!</p>
+            <p>
+              Necesitamos tu ayuda para hacer de la temporada de primavera de
+              2024 la mejor hasta ahora.
+            </p>
+            <a class="vol-link" href="#">¡Descubre más aquí!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="sponser-section">
+      <div class="banner">
+        <h2 class="sponser-banner-title">
+          Club Deportivo UDT agradece a sus patrocinadores
+        </h2>
+      </div>
+      <div class="sponser-name-sections">
+        <div class="left-names">
+          <p>Jesus Lopez "El Tornillo"</p>
+          <p>Paul Arechiga</p>
+          <p>Luis Acosta "La Piedra"</p>
+          <p>Álavro Arechiga</p>
+          <p>Miguel Angel Pérez "Chabelo"</p>
+          <p>Luis "La Perra" ♰</p>
+          <p>Diego Contreras</p>
+          <p>Maxi Morales</p>
+          <p>Roberto Moreno</p>
+        </div>
+        <div class="right-names">
+          <p>Antonio Moreno "El Sabritas"</p>
+          <p>Sergio Medina</p>
+          <p>Edgar Ivan González "El Peque"</p>
+          <p>Raul Díaz Cobarrubias</p>
+          <p>Arturo Javier González "El Potrito"</p>
+          <p>Keith Rincón</p>
+          <p>Pablo Vásquez</p>
+          <p>Noé Ruelas</p>
+          <p>Christian Brambila</p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer">
+        <div class="logo-container">
+          <img src="imgs/logomain.png" alt="" />
+        </div>
+        <div class="siguenos">
+          <h2>Siguenos</h2>
+          <h2>#ElFutbolEsVida</h2>
+          <p class="copyright">
+            ©2024 UDT Deportivo. Todos los derechos reservados
+          </p>
+        </div>
+        <div class="facebook-container">
+          <a href="https://www.facebook.com/ElFutbolesVidaUDT/?locale=es_LA">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="5em"
+              viewBox="0 0 512 512"
+            >
+              <path
+                d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!-- <header>
       <nav class="container">
         <div class="nav-box">
           <div class="logo-nav">
@@ -30,9 +203,9 @@
             <a href="preguntas.html" class="preguntas-padding">Preguntas</a>
           </div>
         </div>
-      </nav>
+      </nav> -->
 
-      <section>
+    <!-- <section>
         <div class="container">
           <div class="header-main">
             <div class="banner">
@@ -40,7 +213,9 @@
               <div class="banner-logo">
                 <img src="imgs/logomain.png" alt="logo" />
               </div>
-              <div class="banner-right"><h1>DEPORTIVO UDT</h1></div>
+              <div class="banner-right">
+                <h1 class="right-title">DEPORTIVO UDT</h1>
+              </div>
             </div>
             <div class="header-img">
               <img
@@ -257,7 +432,10 @@
                 height="4em"
                 viewBox="0 0 512 512"
               >
-                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                ! Font Awesome Free 6.4.2 by @fontawesome -
+                https://fontawesome.com License -
+                https://fontawesome.com/license (Commercial License) Copyright
+                2023 Fonticons, Inc.
                 <path
                   d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
                 />
@@ -271,7 +449,7 @@
           </p>
         </div>
       </div>
-    </footer>
+    </footer> -->
   </body>
   <script src="index.js"></script>
 </html>
